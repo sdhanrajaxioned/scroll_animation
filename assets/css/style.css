@@ -155,7 +155,9 @@ h2 {
   transform: translateX(200%);
 }
 
-
+.box.show {
+  transform: translateX(0);
+}
 
 
 
