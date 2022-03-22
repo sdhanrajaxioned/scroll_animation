@@ -108,25 +108,52 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
 
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFEDD5;
+  overflow-x: hidden;
+}
 /*=================================
   main styling starts here
 =================================*/
 
+h2 {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
 
+.box-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
 
+.box {
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-color: #4682B4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 45px;
+  font-weight: 700;
+  transform: translateX(-200%);
+}
+
+.box:nth-of-type(odd) {
+  transform: translateX(200%);
+}
 
 
 
